@@ -1,0 +1,56 @@
+{
+    "name": "jiffyquick",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.jsx",
+    "browserslist": [
+        "ie >= 8",
+        "last 4 version"
+    ],
+    "scripts": {
+        "build": "webpack",
+        "prod": "webpack --mode=production",
+        "watch": "webpack --watch"
+    },
+    "keywords": [],
+    "author": "Den Ytochkin",
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/core": "^7.4.3",
+        "@babel/preset-env": "^7.4.3",
+        "@babel/preset-react": "^7.0.0",
+        "autoprefixer": "^9.0.2",
+        "babel-loader": "^8.0.5",
+        "css-loader": "^1.0.0",
+        "express": "^4.16.3",
+        "extract-text-webpack-plugin": "^4.0.0-beta.0",
+        "file-loader": "^3.0.1",
+        "node-sass": "^4.9.2",
+        "postcss-loader": "^2.1.6",
+        "redux-devtools-extension": "^2.13.8",
+        "sass-loader": "^7.0.3",
+        "style-loader": "^0.21.0",
+        "url-loader": "^1.1.2",
+        "webpack": "^4.20.2",
+        "webpack-command": "^0.4.2"
+    },
+    "dependencies": {
+        "axios": "^0.18.0",
+        "dateformat": "^3.0.3",
+        "immer": "^2.1.1",
+        "moment": "^2.24.0",
+        "progressbar.js": "^1.0.1",
+        "react": "16.8.4",
+        "react-dom": "16.8.4",
+        "react-dropzone": "^10.0.0",
+        "react-id-swiper": "^1.6.9",
+        "react-redux": "^5.0.7",
+        "react-router": "^4.3.1",
+        "react-router-dom": "^4.3.1",
+        "react-svg": "^7.2.10",
+        "react-transition-group": "^1.2.1",
+        "redux": "^4.0.0",
+        "redux-thunk": "^2.3.0",
+        "uuid": "^3.3.2"
+    }
+}
